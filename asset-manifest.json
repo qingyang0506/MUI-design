@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.b609fd21.js",
-    "index.html": "/index.html",
-    "main.b609fd21.js.map": "/static/js/main.b609fd21.js.map"
+    "main.js": "/MUI-design/static/js/main.b609fd21.js",
+    "index.html": "/MUI-design/index.html",
+    "main.b609fd21.js.map": "/MUI-design/static/js/main.b609fd21.js.map"
   },
   "entrypoints": [
     "static/js/main.b609fd21.js"

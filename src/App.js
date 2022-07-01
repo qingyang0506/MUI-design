@@ -12,13 +12,20 @@ function App() {
     palette: {
       mode: mode,
     },
+    primary: {
+      main: "#17a533",
+      light: "skyblue",
+    },
+    secondary: {
+      main: "#15c630",
+    },
   });
   return (
     <ThemeProvider theme={darkTheme}>
-      <Box bgcolor={"background.default"} color={'text.primary'}>
+      <Box bgcolor={"background.default"} color={"text.primary"}>
         <Navbar />
         <Stack direction={"row"} spacing={2} justifyContent="space-between">
-          <Siderbar setMode={setMode} mode={mode}/>
+          <Siderbar setMode={setMode} mode={mode} />
           <Feed />
           <Rightbar />
         </Stack>

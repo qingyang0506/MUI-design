@@ -1,9 +1,9 @@
 import { createTheme } from "@mui/system";
 
-export const theme = createTheme({
+ const theme = createTheme({
     palette: {
         primary: {
-            main: "#1760a5",
+            main: "red",
             light:"skyblue"
         },
         secondary: {
@@ -14,3 +14,5 @@ export const theme = createTheme({
         }
     }
 });
+
+export default theme;

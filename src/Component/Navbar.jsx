@@ -3,10 +3,10 @@ import { AppBar, Toolbar, styled, Typography, Box, InputBase, Badge, Avatar, Men
 import React, { createRef, useState } from 'react'
 import { Pets, Mail, Notifications, ManageSearch, Error, Done } from '@mui/icons-material'
 
-const StyleToolbar = styled(Toolbar)({
+const StyleToolbar = styled(Toolbar)(({theme})=>({
     display: "flex",
-    justifyContent: "space-between"
-});
+    justifyContent: "space-between",
+}));
 
 const Search = styled(Box)(({ theme }) => ({
     display: 'flex',
